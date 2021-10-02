@@ -6,6 +6,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>hami-web-spring-boot-starter</module>
+        <module>hami-mybatis-plus-spring-boot-starter</module>
     </modules>
 
     <parent>
