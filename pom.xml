@@ -16,7 +16,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.xuhaoming</groupId>
+    <groupId>com.github.dovemy</groupId>
     <artifactId>hami-spring-boot-starter</artifactId>
     <version>1.0.0</version>
 
