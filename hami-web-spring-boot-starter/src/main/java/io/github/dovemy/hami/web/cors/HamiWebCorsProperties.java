@@ -1,4 +1,4 @@
-package com.xuhaoming.hami.web.cors;
+package io.github.dovemy.hami.web.cors;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

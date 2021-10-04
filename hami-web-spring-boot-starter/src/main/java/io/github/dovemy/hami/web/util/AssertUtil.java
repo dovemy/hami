@@ -1,7 +1,7 @@
-package com.xuhaoming.hami.web.util;
+package io.github.dovemy.hami.web.util;
 
 import com.github.xiaoymin.knife4j.core.util.StrUtil;
-import com.xuhaoming.hami.web.exception.BusinessException;
+import io.github.dovemy.hami.web.exception.BusinessException;
 import org.springframework.http.HttpStatus;
 
 import java.util.Collection;

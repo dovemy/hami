@@ -1,1 +1,1 @@
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.xuhaoming.hami.web.cors.HamiWebCorsAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=io.github.dovemy.hami.web.cors.HamiWebCorsAutoConfiguration

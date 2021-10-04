@@ -2,8 +2,8 @@
   "groups": [
     {
       "name": "hami.mybatis-plus",
-      "type": "com.xuhaoming.hami.mybatisplus.HamiMybatisPlusProperties",
-      "sourceType": "com.xuhaoming.hami.mybatisplus.HamiMybatisPlusProperties"
+      "type": "io.github.dovemy.hami.mybatisplus.HamiMybatisPlusProperties",
+      "sourceType": "io.github.dovemy.hami.mybatisplus.HamiMybatisPlusProperties"
     }
   ],
   "properties": [
@@ -11,7 +11,7 @@
       "name": "hami.mybatis-plus.db-type",
       "type": "java.lang.String",
       "description": "数据库类型，默认用MySQL {@link com.baomidou.mybatisplus.annotation.DbType}",
-      "sourceType": "com.xuhaoming.hami.mybatisplus.HamiMybatisPlusProperties",
+      "sourceType": "io.github.dovemy.hami.mybatisplus.HamiMybatisPlusProperties",
       "defaultValue": "mysql"
     }
   ],

@@ -1,4 +1,4 @@
-package com.xuhaoming.hami.web.cors;
+package io.github.dovemy.hami.web.cors;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

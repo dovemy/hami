@@ -1,4 +1,4 @@
-package com.xuhaoming.hami.web.util;
+package io.github.dovemy.hami.web.util;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;

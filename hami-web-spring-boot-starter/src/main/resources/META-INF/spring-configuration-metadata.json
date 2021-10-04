@@ -2,27 +2,27 @@
   "groups": [
     {
       "name": "hami.web.cors",
-      "type": "com.xuhaoming.hami.web.cors.HamiWebCorsProperties",
-      "sourceType": "com.xuhaoming.hami.web.cors.HamiWebCorsProperties"
+      "type": "io.github.dovemy.hami.web.cors.HamiWebCorsProperties",
+      "sourceType": "io.github.dovemy.hami.web.cors.HamiWebCorsProperties"
     }
   ],
   "properties": [
     {
       "name": "hami.web.cors.allowed-header",
       "type": "java.lang.String",
-      "sourceType": "com.xuhaoming.hami.web.cors.HamiWebCorsProperties",
+      "sourceType": "io.github.dovemy.hami.web.cors.HamiWebCorsProperties",
       "defaultValue": "*"
     },
     {
       "name": "hami.web.cors.allowed-origin",
       "type": "java.lang.String",
-      "sourceType": "com.xuhaoming.hami.web.cors.HamiWebCorsProperties",
+      "sourceType": "io.github.dovemy.hami.web.cors.HamiWebCorsProperties",
       "defaultValue": "*"
     },
     {
       "name": "hami.web.cors.enable",
       "type": "java.lang.Boolean",
-      "sourceType": "com.xuhaoming.hami.web.cors.HamiWebCorsProperties",
+      "sourceType": "io.github.dovemy.hami.web.cors.HamiWebCorsProperties",
       "defaultValue": false
     }
   ],

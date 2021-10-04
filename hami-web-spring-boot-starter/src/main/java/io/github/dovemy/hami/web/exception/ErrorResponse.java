@@ -1,4 +1,4 @@
-package com.xuhaoming.hami.web.exception;
+package io.github.dovemy.hami.web.exception;
 
 /**
  * 错误返回对象

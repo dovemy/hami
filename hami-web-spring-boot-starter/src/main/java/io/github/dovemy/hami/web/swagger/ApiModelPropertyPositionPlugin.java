@@ -1,4 +1,4 @@
-package com.xuhaoming.hami.web.swagger;
+package io.github.dovemy.hami.web.swagger;
 
 import com.fasterxml.jackson.databind.introspect.AnnotatedField;
 import com.fasterxml.jackson.databind.introspect.BeanPropertyDefinition;
