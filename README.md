@@ -76,7 +76,28 @@ hami:
 ```
 
 # 快速开始
-&emsp;请参见[Hami-Demo](https://github.com/dovemy/hami-demo)项目（[Gitee项目](https://gitee.com/dovemy/hami-demo)）
+&emsp;按照项目需求，引入依赖。最新版依赖请查询[Maven中央仓库](https://search.maven.org/search?q=g:io.github.dovemy)  
+```xml
+<dependencies>
+        <dependency>
+            <groupId>io.github.dovemy</groupId>
+            <artifactId>hami-web-spring-boot-starter</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.dovemy</groupId>
+            <artifactId>hami-mybatis-plus-spring-boot-starter</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>io.github.dovemy</groupId>
+            <artifactId>hami-redis-spring-boot-starter</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+    </dependencies>
+```
+
+&emsp;详情请参见[Hami-Demo](https://github.com/dovemy/hami-demo)项目（[Gitee项目](https://gitee.com/dovemy/hami-demo)）
 
 # 敬请期待
 1. Web模块：新增IPUtil
