@@ -4,6 +4,11 @@
       "name": "hami.web.cors",
       "type": "io.github.dovemy.hami.web.cors.HamiWebCorsProperties",
       "sourceType": "io.github.dovemy.hami.web.cors.HamiWebCorsProperties"
+    },
+    {
+      "name": "hami.web.swagger",
+      "type": "io.github.dovemy.hami.web.swagger.HamiWebSwaggerProperties",
+      "sourceType": "io.github.dovemy.hami.web.swagger.HamiWebSwaggerProperties"
     }
   ],
   "properties": [
@@ -24,6 +29,12 @@
       "type": "java.lang.Boolean",
       "sourceType": "io.github.dovemy.hami.web.cors.HamiWebCorsProperties",
       "defaultValue": false
+    },
+    {
+      "name": "hami.web.swagger.dockets",
+      "type": "java.util.Map<java.lang.String,io.github.dovemy.hami.web.swagger.HamiWebSwaggerProperties$DocketInfo>",
+      "description": "分组信息",
+      "sourceType": "io.github.dovemy.hami.web.swagger.HamiWebSwaggerProperties"
     }
   ],
   "hints": []
