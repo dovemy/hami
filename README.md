@@ -7,6 +7,16 @@
 
 国内Gitee地址：https://gitee.com/dovemy/hami
 
+# 版本说明
+- JDK：8+
+- SpringBoot：2.4.11
+- Knife4j：2.0.9
+- EasyExcel：2.2.6
+- FastJson：1.2.70
+- MybatisPlus：3.4.0  
+
+（仅罗列的核心依赖，具体详情参见父pom->properties）
+
 # 组成部分
 ## hami-web
 &emsp;Web开发模块，包含以下功能：  
@@ -19,8 +29,10 @@
     - 内置全局异常处理器`GlobalExceptionHandler`，处理常见的参数异常（JSR303），并格式化提示信息抛出异常
     （提示：基于SpringBoot的自动扫描实现，启用时需要通过手动配置`@SpringBootApplication`的`scanBasePackages`属性 ）
 4. Web常用工具  
-    - 断言工具：空指针、空串、空集合等断言工具
-    - Cookie工具：添加、删除、查询Cookie
+    - AssertUtil：空指针、空串、空集合等断言工具
+    - CookieUtil：添加、删除、查询Cookie
+    - IPUtil：IP地址工具类
+    - easyexcel包：excel上传、下载工具
 
 本模块完整配置项：  
 ```yaml
@@ -30,8 +42,18 @@ hami:
       enable: true
       allowed-header: *
       allowed-origin: *
-
-# 以下配置为knife4j原生配置
+    swagger:
+          production: true
+          dockets:
+            test:
+              groupName: 测试分组
+              basePackage: io.github.dovemy.hamidemo.controller
+              docTitle: 文档标题
+              author: 作者名
+              description: 文档描述
+              version: 1.0.0
+              
+# 以下配置为knife4j原生配置：enable填true即可，production控制生产环境屏蔽露出
 knife4j:
   enable: true
   production: false
@@ -100,6 +122,4 @@ hami:
 &emsp;详情请参见[Hami-Demo](https://github.com/dovemy/hami-demo)项目（[Gitee项目](https://gitee.com/dovemy/hami-demo)）
 
 # 敬请期待
-1. Web模块：新增IPUtil
-2. MybatisPlus模块：新增字段填充器
-3. 新增hami-rbac模块
+新增hami-rbac模块
