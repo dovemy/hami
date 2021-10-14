@@ -104,19 +104,28 @@ hami:
         <dependency>
             <groupId>io.github.dovemy</groupId>
             <artifactId>hami-web-spring-boot-starter</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.2</version>
         </dependency>
         <dependency>
             <groupId>io.github.dovemy</groupId>
             <artifactId>hami-mybatis-plus-spring-boot-starter</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.2</version>
         </dependency>
         <dependency>
             <groupId>io.github.dovemy</groupId>
             <artifactId>hami-redis-spring-boot-starter</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.2</version>
         </dependency>
     </dependencies>
+```
+若无法下载，请检查maven的settings.xml配置，阿里云镜像仓库存在多个版本，请用如下配置
+```xml
+<mirror>
+  <id>alimaven</id>
+  <mirrorOf>central</mirrorOf>
+  <name>aliyun maven</name>
+  <url>https://maven.aliyun.com/repository/central</url>
+</mirror>
 ```
 
 &emsp;详情请参见[Hami-Demo](https://github.com/dovemy/hami-demo)项目（[Gitee项目](https://gitee.com/dovemy/hami-demo)）
