@@ -19,7 +19,7 @@
 
     <groupId>io.github.dovemy</groupId>
     <artifactId>hami-spring-boot-starter</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <name>hami-spring-boot-starter</name>
     <description>Out-of-box framework for SpringBoot</description>
     <url>https://github.com/dovemy/hami</url>
